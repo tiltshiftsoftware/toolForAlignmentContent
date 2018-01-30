@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9978f7661e6724f8d8ba45197504f3, type: 3}
+  m_Name: RAToolsButtons
+  m_EditorClassIdentifier: 
+  SettingsTexture: {fileID: 2800000, guid: 522e50ae1101987419e4d0aa2d675207, type: 3}
+  Width: 65
+  Height: 35
+  Groups:
+  - Title: Detectors
+    Layout: 0
+    Buttons:
+    - Title: Collector
+      Icon: {fileID: 0}
+      ContentType: 0
+      Prefab: {fileID: 1000011219133000, guid: bae564e594d834146ade859f2282d97e, type: 2}
+    - Title: Throgh Detector
+      Icon: {fileID: 0}
+      ContentType: 0
+      Prefab: {fileID: 1000012039008940, guid: e34fa4ba784ace240abf88cb4d1d5206, type: 2}
+  - Title: Laser
+    Layout: 0
+    Buttons:
+    - Title: Laser
+      Icon: {fileID: 2800000, guid: 2fda360e440c5e549a2bffd22ddb2336, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1000013408646100, guid: eb9aa72e9ad8899409930bea33c7c6b7, type: 2}
+    - Title: Emitter
+      Icon: {fileID: 0}
+      ContentType: 0
+      Prefab: {fileID: 1000011324700160, guid: 10012cd7d5e71b24a90c12422c7b0c28, type: 2}
+  - Title: Filter
+    Layout: 0
+    Buttons:
+    - Title: Filter
+      Icon: {fileID: 2800000, guid: 686357a243997954097d67c216b10412, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1944224416117150, guid: f5d1ff4c40082fd4c9d881aab06c9dea, type: 2}
+  - Title: Mirror
+    Layout: 0
+    Buttons:
+    - Title: Mirror
+      Icon: {fileID: 2800000, guid: 757e152298b96b7448cf51d94e05a686, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1000012971393058, guid: a8ba794c53283e64098ddd27d7eb77bd, type: 2}
+  - Title: Combiner
+    Layout: 0
+    Buttons:
+    - Title: 45
+      Icon: {fileID: 2800000, guid: 6a6e2732052069b43bffb5e9c293d753, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1000011434650686, guid: a8aee8a079564254485a309c736e3f3e, type: 2}
+    - Title: 60
+      Icon: {fileID: 2800000, guid: d73c2445fed476748a5a2619bebe6099, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1780301518273874, guid: 617c9e19111d0274494c2a8dd8e2bff2, type: 2}
+    - Title: 90
+      Icon: {fileID: 2800000, guid: fa0e2ec9018d72f49a27d12d8f110000, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1086673456406426, guid: 6f2334a8bc785be4693e09ae8f729561, type: 2}
+  - Title: Separator
+    Layout: 0
+    Buttons:
+    - Title: 45
+      Icon: {fileID: 2800000, guid: 7267257f0d0f1f84da53cadb01754569, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1000012103278890, guid: 33e801fd26233fc4d94471a56b9c4665, type: 2}
+    - Title: 60
+      Icon: {fileID: 2800000, guid: 7b4564b11bf2c0d44a76ba67aef06e56, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1000010810230858, guid: 29aa5c7cbbd23b84fa5a59d5ffecb65d, type: 2}
+    - Title: 90
+      Icon: {fileID: 2800000, guid: d15730c358721fe408fdfead2478bf54, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1000012765904046, guid: 0ac6204dd83eb064eb58d1d9caec58ac, type: 2}
+  - Title: Batteries
+    Layout: 0
+    Buttons:
+    - Title: Small battery
+      Icon: {fileID: 2800000, guid: c907e9353ba0c754abd771de9bfd61c2, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1000013393105958, guid: 961c530f4e569be45943e7d9bc9b706b, type: 2}
+    - Title: Holder
+      Icon: {fileID: 2800000, guid: e32dc8621738d05459f406d5be3fc17b, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1670260408411096, guid: 3427f686addb85b4982a0e4a934aa7dc, type: 2}
+  - Title: Antenna
+    Layout: 0
+    Buttons:
+    - Title: Antenna
+      Icon: {fileID: 2800000, guid: bc0a99314e41184409b7019234e997b9, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1538259847958962, guid: 1cfa0bbba302d994c8d3e58c8a9d7ae3, type: 2}
+  - Title: Spline
+    Layout: 0
+    Buttons:
+    - Title: Spline
+      Icon: {fileID: 2800000, guid: af03712b225ec9743b465fab65f6ec4c, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 1227441694532520, guid: 64e0dbc3929b02940a12a1206e73ec4d, type: 2}
+  - Title: Custom
+    Layout: 0
+    Buttons:
+    - Title: Custom
+      Icon: {fileID: 2800000, guid: dafb33f59630a5c489cf90732a5917db, type: 3}
+      ContentType: 1
+      Prefab: {fileID: 0}
